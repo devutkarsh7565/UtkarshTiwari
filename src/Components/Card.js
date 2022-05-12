@@ -1,5 +1,5 @@
 import { FaGithub, FaLinkedinIn, FaInstagram } from "react-icons/fa";
-import { Link } from "react-router-dom";
+
 import Profile from "../img/utkarsh1.jpg";
 
 const Card = () => {
@@ -24,27 +24,27 @@ const Card = () => {
               Web Developer / Competitive Programmer
             </p>
             <div className="flex items-center justify-center mt-4">
-              <Link
+              <a
                 className="m-1 p-1 text-xl  sm:m-2 sm:p-2 hover:bg-black rounded-full hover:text-white transition-colors duration-300"
-                to="/https://github.com/devutkarsh7565"
+                href="https://github.com/devutkarsh7565"
               >
                 <FaGithub />
                 <span class="sr-only">Github</span>
-              </Link>
-              <Link
+              </a>
+              <a
                 className="m-1 p-1 text-xl sm:m-2 sm:p-2 text-blue-500 hover:bg-blue-500 rounded-full hover:text-white transition-colors duration-300"
-                to="/"
+                href="https://www.linkedin.com/in/utkarsh-tiwari-190301203/"
               >
                 <FaLinkedinIn />
                 <span class="sr-only">Github</span>
-              </Link>
-              <Link
+              </a>
+              <a
                 className="m-1 p-1 text-xl sm:m-2 sm:p-2 text-pink-500 hover:bg-pink-500 rounded-full hover:text-white transition-colors duration-300"
-                to="/"
+                href="https://www.instagram.com/utkarsh3911/"
               >
                 <FaInstagram />
                 <span class="sr-only">Github</span>
-              </Link>
+              </a>
             </div>
           </div>
         </div>

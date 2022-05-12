@@ -3,8 +3,8 @@ import { SiJavascript, SiTailwindcss } from "react-icons/si";
 const Skills = () => {
   return (
     <>
-      <div className="max-w-4xl mx-auto text-center ">
-        <p className="text-2xl text-black dark:text-white pt-4 sm:text-4xl font-bold">
+      <div className="max-w-4xl mb-20 mx-auto text-center ">
+        <p className="animate-bounce text-2xl text-blue-600 dark:text-blue-400 pt-4 sm:text-4xl font-bold ">
           Skills I Learn
         </p>
         <div className="flex flex-wrap justify-center pt-2">

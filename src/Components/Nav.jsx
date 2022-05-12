@@ -11,7 +11,7 @@ const Nav = () => {
           className="flex justify-start"
         >
           {colorTheme === "light" ? (
-            <FaRegLightbulb className="bg-indigo-500 rounded-full shadow-lg cursor-pointer text-white flex justify-center items-center p-2 w-10 h-10" />
+            <FaRegLightbulb className="bg-white rounded-full shadow-lg cursor-pointer text-indigo-500 flex justify-center items-center p-2 w-10 h-10" />
           ) : (
             <FaRegLightbulb className="bg-indigo-500 rounded-full shadow-lg cursor-pointer text-white flex justify-center items-center p-2 w-10 h-10" />
           )}

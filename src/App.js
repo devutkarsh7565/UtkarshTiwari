@@ -3,6 +3,7 @@ import Nav from "./Components/Nav";
 import About from "./Components/About";
 import Skills from "./Components/Skills";
 import Footer from "./Components/Footer";
+import Education from "./Components/Education";
 import { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -24,10 +25,15 @@ const App = () => {
         <div data-aos="fade-down" data-aos-duration="800">
           <Card />
         </div>
+
         <div data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
           <About />
         </div>
-        <div data-aos="fade-in" data-aos-duration="800" data-aos-delay="400">
+
+        <div data-aos="fade-left" data-aos-duration="800" data-aos-delay="400">
+          <Education />
+        </div>
+        <div data-aos="fade-right" data-aos-duration="800" data-aos-delay="400">
           <Skills />
         </div>
 
