@@ -9,7 +9,7 @@ const Footer = () => {
         </h1>
         <div className="flex justify-center mt-4">
           <a
-            className="m-1 p-1 text-xl  sm:m-2 sm:p-2 hover:bg-black rounded-full hover:text-white transition-colors duration-300"
+            className="m-1 p-1 text-xl sm:m-2 sm:p-2 dark:text-white hover:bg-orange-500 rounded-full hover:text-white transition-colors duration-300"
             href="https://github.com/devutkarsh7565"
           >
             <FaGithub />
@@ -32,7 +32,7 @@ const Footer = () => {
         </div>
         <div className="flex justify-center mt-4">
           <p className="text-black dark:text-blue-100 mb-4">
-            Made with <span className="mr-2">💙</span> by{" "}
+            Made with <span className="mr-2">💙</span>by{" "}
             <a
               className="text-blue-500"
               href="https://www.instagram.com/utkarsh3911/"
