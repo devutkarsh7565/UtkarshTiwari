@@ -22,27 +22,19 @@ const App = () => {
     py-10 min-h-screen sm:px-5 bg-gray-100 dark:bg-[#041C32]"
       >
         <Nav />
-        <div className="h-screen flex flex-col justify-center items-center">
-          <div
-          // data-aos="fade-down" data-aos-duration="800"
-          >
+        <div className="min-h-screen flex flex-col justify-center items-center">
+          <div data-aos="fade-down" data-aos-duration="800">
             <Card />
           </div>
-          <div
-          // data-aos="fade-up" data-aos-duration="800" data-aos-delay="400"
-          >
+          <div data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
             <About />
           </div>
         </div>
 
-        <div
-        // data-aos="fade-left" data-aos-duration="800" data-aos-delay="400"
-        >
+        <div data-aos="fade-right" data-aos-duration="800" data-aos-delay="400">
           <Education />
         </div>
-        <div
-        // data-aos="fade-right" data-aos-duration="800" data-aos-delay="400"
-        >
+        <div data-aos="fade-right" data-aos-duration="800" data-aos-delay="400">
           <Skills />
         </div>
 

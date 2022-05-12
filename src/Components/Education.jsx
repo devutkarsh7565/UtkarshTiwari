@@ -4,7 +4,7 @@ const Education = () => {
   return (
     <div
       id="education"
-      className="h-screen max-w-4xl mx-auto text-center my-20 flex justify-center items-center"
+      className="min-h-screen max-w-4xl mx-auto text-center my-20 flex justify-center items-center"
     >
       <div>
         <div className="flex flex-col justify-between">
