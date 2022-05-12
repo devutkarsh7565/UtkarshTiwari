@@ -3,9 +3,9 @@ import { SiJavascript, SiTailwindcss } from "react-icons/si";
 const Skills = () => {
   return (
     <>
-      <div className="max-w-4xl mb-20 mx-auto text-center ">
-        <p className="animate-bounce text-2xl text-blue-600 dark:text-blue-400 pt-4 sm:text-4xl font-bold ">
-          Skills I Learn
+      <div id="skills" className="max-w-4xl mb-20 mx-auto text-center ">
+        <p className="text-2xl text-blue-600 dark:text-blue-400 pt-4 sm:text-4xl font-bold ">
+          Tech Stacks/Skills
         </p>
         <div className="flex flex-wrap justify-center pt-2">
           <div className="flex flex-col w-48 p-10 m-6 bg-white shadow-2xl sm:w-56 rounded-xl ">
