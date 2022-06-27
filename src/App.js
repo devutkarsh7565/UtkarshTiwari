@@ -7,7 +7,8 @@ import Education from "./Components/Education";
 import { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
-
+import Home from "./Home";
+import { Route, Routes } from "react-router-dom";
 const App = () => {
   useEffect(() => {
     Aos.init({
@@ -22,15 +23,8 @@ const App = () => {
     py-10 min-h-screen sm:px-5 bg-gray-100 dark:bg-[#041C32]"
       >
         <Nav />
-        <div className="min-h-screen flex flex-col justify-center items-center">
-          <div data-aos="fade-down" data-aos-duration="800">
-            <Card />
-          </div>
-          <div data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
-            <About />
-          </div>
-        </div>
 
+        <Home />
         <div data-aos="fade-right" data-aos-duration="800" data-aos-delay="400">
           <Education />
         </div>

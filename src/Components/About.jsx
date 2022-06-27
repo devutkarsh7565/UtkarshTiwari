@@ -6,7 +6,7 @@ const About = () => {
   return (
     <>
       <div className="mt-20 mx-auto">
-        <div className="text-black dark:text-white text-2xl flex w-full justify-center items-center">
+        <div className="text-black dark:text-white text-2xl flex w-full justify-center items-center ">
           <img className="w-8" src={Wave} alt="👋" />
           <span className="text-gray-600 dark:text-gray-100">Hey</span>
         </div>
@@ -24,7 +24,7 @@ const About = () => {
         </p>
       </div>
       <ScrollIntoView selector="#education">
-        <div className="py-20 sm:py-40">
+        <div className="pt-20 sm:mt-20 lg:mt-0 ">
           <FaChevronDown className="animate-bounce mx-auto text-3xl text-blue-500 mt-5" />
         </div>
       </ScrollIntoView>

@@ -4,15 +4,15 @@ const Education = () => {
   return (
     <div
       id="education"
-      className="min-h-screen max-w-4xl mx-auto text-center my-20 flex justify-center items-center"
+      className="min-h-screen min-w-screen mx-auto text-center my-20 flex justify-center items-center"
     >
       <div>
-        <div className="flex flex-col justify-between">
-          <p className="text-3xl text-blue-600 pt-4 sm:text-4xl font-bold dark:text-blue-400">
+        <div className="flex flex-col justify-between w-screen  py-0 md:py-12">
+          <p className="text-3xl text-blue-600 pt-4 pb-6 sm:text-4xl font-bold dark:text-blue-400">
             EDUCATION
           </p>
-          <div className="flex flex-wrap justify-center pt-2">
-            <div className="flex flex-col w-72 p-10 m-6 bg-white shadow-2xl sm:w-56 rounded-xl ">
+          <div className="flex flex-wrap justify-center pt-10 ">
+            <div className="flex flex-col w-56  p-10 m-6 bg-white shadow-2xl sm:w-96 sm:h-[370px]  rounded-xl lg:mr-20 dark:bg-[#DFF6FF]">
               <p className="mt-6 text-2xl sm:text-2xl font-semibold text-blue-600 text-center ">
                 2020-PRESENT
               </p>
@@ -24,7 +24,7 @@ const Education = () => {
                 Mahatma Jyotiba Phule Rohilkhand University
               </p>
             </div>
-            <div className="flex flex-col w-72 p-10 m-6 bg-white shadow-2xl sm:w-56 rounded-xl ">
+            <div className="flex flex-col w-56  p-10 m-6 bg-white shadow-2xl sm:w-96 rounded-xl dark:bg-[#DFF6FF]">
               <p className="mt-6 text-2xl font-semibold text-blue-600  ">
                 2018-2020
               </p>
@@ -39,7 +39,7 @@ const Education = () => {
         </div>
 
         <ScrollIntoView selector="#skills">
-          <div className="sm:py-28">
+          <div className="py-6 sm:py-28 mt-4 lg-mt-20">
             <FaChevronDown className="animate-bounce mx-auto text-3xl text-blue-500 mt-5" />
           </div>
         </ScrollIntoView>

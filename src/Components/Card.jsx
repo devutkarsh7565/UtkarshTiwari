@@ -6,7 +6,7 @@ const Card = () => {
   return (
     <>
       <div className="w-full">
-        <div className="flex flex-col justify-center mx-auto bg-white max-w-xs rounded-xl shadow-xl  p-5 mt-12">
+        <div className="flex flex-col justify-center mx-auto bg-white max-w-xs rounded-xl shadow-xl  p-5 mt-12 dark:bg-[#DFF6FF]">
           <div className="pt-5">
             <img
               className="w-32  mx-auto shadow-xl drop-shadow-sm rounded-full shadow-stone-600/50"
