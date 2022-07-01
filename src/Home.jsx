@@ -6,7 +6,10 @@ const Home = () => {
   return (
     <>
       {" "}
-      <div className="min-h-screen flex flex-col justify-center items-center">
+      <div
+        id="home"
+        className="min-h-screen flex flex-col justify-start items-center"
+      >
         <div data-aos="fade-down" data-aos-duration="800">
           <Card />
         </div>

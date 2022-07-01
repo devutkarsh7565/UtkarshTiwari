@@ -6,8 +6,8 @@ const Card = () => {
   return (
     <>
       <div className="w-full">
-        <div className="flex flex-col justify-center mx-auto bg-white max-w-xs rounded-xl shadow-xl  p-5 mt-12 dark:bg-[#DFF6FF]">
-          <div className="pt-5">
+        <div className="flex flex-col justify-center mx-auto bg-slate-200 max-w-xs rounded-xl shadow-xl  p-5 mt-20 dark:bg-[#DFF6FF]">
+          <div className="pt-2">
             <img
               className="w-32  mx-auto shadow-xl drop-shadow-sm rounded-full shadow-stone-600/50"
               src={Profile}
@@ -15,7 +15,7 @@ const Card = () => {
             />
           </div>
           <div className="mt-5 text-center">
-            <p className="text-center text-xl sm:text-2xl text-gray-900">
+            <p className="text-center  sm:text-2xl text-gray-900">
               {" "}
               Utkarsh Tiwari
             </p>

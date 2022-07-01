@@ -23,8 +23,8 @@ const About = () => {
           {"🚀 "}I also love to travel.
         </p>
       </div>
-      <ScrollIntoView selector="#education">
-        <div className="pt-20 sm:mt-20 lg:mt-0 ">
+      <ScrollIntoView selector="#down">
+        <div className="pt-12 sm:mt-8 lg:mt-10 ">
           <FaChevronDown className="animate-bounce mx-auto text-3xl text-blue-500 mt-5" />
         </div>
       </ScrollIntoView>
