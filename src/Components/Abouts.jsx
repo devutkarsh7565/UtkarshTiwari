@@ -36,7 +36,7 @@ const Abouts = () => {
                 </p>
                 <button className="px-4 py-3 mt-6 font-poppins rounded-3xl bg-[#5924ed] text-white w-40 text-xl font-medium leading-3 hover:text-[#5924ed] hover:bg-white hover:border-2 hover:border-[#5934ed] duration-500">
                   <a
-                    href=" https://devutkarsh7565.github.io/resume/"
+                    href="https://drive.google.com/file/d/11IJtJOAZbT8OzAo1MK4YnIwX7r0QnK_m/view"
                     target="_blank"
                   >
                     RESUME

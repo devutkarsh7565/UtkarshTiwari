@@ -32,7 +32,7 @@ const Skills = () => {
               React Js
             </p>
           </div>
-          <div className="flex flex-col w-48 p-10 m-6 bg-slate-100 font-poppins shadow-2xl sm:w-56 rounded-xl dark:bg-[#DFF6FF]">
+          <div className="flex flex-col w-48 px-10 py-6 m-6 bg-slate-100 font-poppins shadow-2xl sm:w-56 rounded-xl dark:bg-[#DFF6FF]">
             <SiTailwindcss className="mx-auto text-4xl text-cyan-400" />
             <p className="mt-6 text-xl sm:text-2xl font-poppins text-center ">
               Tailwind Css
