@@ -42,7 +42,7 @@ const Project = () => {
                 <div className="flex justify-start">
                   <button className="px-4 py-3 mt-6 font-poppins rounded-3xl bg-[#5924ed] text-white w-40 text-xl font-medium leading-3 hover:text-[#5924ed] hover:bg-white hover:border-2 hover:border-[#5934ed] duration-500 mr-4">
                     <a
-                      href="https://moviehut-gamma.vercel.app/"
+                      href="https://moviehut-alpha.vercel.app/"
                       target="_blank"
                     >
                       Website
