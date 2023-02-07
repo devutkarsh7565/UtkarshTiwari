@@ -1,5 +1,9 @@
 import { FaHtml5, FaCss3Alt, FaReact } from "react-icons/fa";
 import { SiJavascript, SiTailwindcss } from "react-icons/si";
+import { SiRedux } from "react-icons/si";
+import NextImg from "../img/nextjs.svg";
+import { SiFirebase } from "react-icons/si";
+import { SiMaterialui } from "react-icons/si";
 const Skills = () => {
   return (
     <>
@@ -30,6 +34,30 @@ const Skills = () => {
             <FaReact className="mx-auto text-4xl text-[#064663]" />
             <p className="mt-6 text-xl sm:text-2xl font-poppins text-center ">
               React Js
+            </p>
+          </div>
+          <div className="flex flex-col items-center w-48 px-10 py-8 m-6 bg-slate-100 font-poppins shadow-2xl sm:w-56 rounded-xl dark:bg-[#DFF6FF]">
+            <img className="w-12" src={NextImg} alt="next" />
+            <p className="mt-6 text-xl sm:text-2xl font-poppins text-center ">
+              Next Js
+            </p>
+          </div>
+          <div className="flex flex-col w-48 px-10 py-10 m-6 bg-slate-100 font-poppins shadow-2xl sm:w-56 rounded-xl dark:bg-[#DFF6FF]">
+            <SiRedux className="mx-auto text-4xl text-cyan-400" />
+            <p className="mt-6 text-xl sm:text-2xl font-poppins text-center ">
+              Redux
+            </p>
+          </div>
+          <div className="flex flex-col w-48 p-10  m-6 bg-slate-100 font-poppins shadow-2xl sm:w-56 rounded-xl dark:bg-[#DFF6FF]">
+            <SiFirebase className="mx-auto text-4xl text-yellow-400" />
+            <p className="mt-6 text-xl sm:text-2xl font-poppins text-center ">
+              Firebase
+            </p>
+          </div>
+          <div className="flex flex-col w-48 px-10 py-10 m-6 bg-slate-100 font-poppins shadow-2xl sm:w-56 rounded-xl dark:bg-[#DFF6FF]">
+            <SiMaterialui className="mx-auto text-4xl text-blue-600" />
+            <p className="mt-6 text-xl sm:text-2xl font-poppins text-center ">
+              Material UI
             </p>
           </div>
           <div className="flex flex-col w-48 px-10 py-6 m-6 bg-slate-100 font-poppins shadow-2xl sm:w-56 rounded-xl dark:bg-[#DFF6FF]">
